@@ -3,14 +3,14 @@ import ctypes
 import os
 import pyfiglet
 
-ctypes.windll.kernel32.SetConsoleTitleW("Demon | Tarantino Andrea")
+ctypes.windll.kernel32.SetConsoleTitleW("SSS | Tarantino Andrea")
 os.system("color 4")
 os.system("cls")
 
-ascii_banner = pyfiglet.figlet_format("Demon")
+ascii_banner = pyfiglet.figlet_format("SSS")
 print(ascii_banner)
 
-print("Welcome to Demon. Type Help if you're a beginner.")
+print("Welcome to SSS. Type Help if you're a beginner.")
 choice = input("\n> ")
 
 if choice=="Help" or choice=="help" or choice=="HELP":
