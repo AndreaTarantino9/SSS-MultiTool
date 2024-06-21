@@ -2,3 +2,4 @@ colorama
 pyfiglet
 ipaddress
 requests
+python-whois

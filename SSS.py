@@ -23,6 +23,7 @@ if choice=="Help" or choice=="help" or choice=="HELP":
     print("  7)IPGen               generate IP address.")
     print("  8)IPValid             validate an IP address.")
     print("  9)WhSpammer           spam a webhook.")
+    print("  10)WHOIS              get information about a domain.")
     choice = input("\n> ")
 elif str(choice)=="1":
     os.system("py src/IP-Pinger.py")
@@ -50,6 +51,9 @@ elif str(choice)=="8":
 
 elif str(choice)=="9":
     os.system("py src/Webhook-Spammer.py")
+
+elif str(choice)=="10":
+    os.system("py src/WHOIS.py")
 
 else:
     print("Invalid command. Type Help if you're a beginner.")
