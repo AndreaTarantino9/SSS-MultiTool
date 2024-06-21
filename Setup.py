@@ -2,7 +2,7 @@ import os
 import time
 import ctypes
 
-ctypes.windll.kernel32.SetConsoleTitleW("Demon Setup | Tarantino Andrea")
+ctypes.windll.kernel32.SetConsoleTitleW("SSS Setup | Tarantino Andrea")
 os.system("color 4")
 os.system("cls")
 
@@ -17,7 +17,7 @@ banner = """
 
 print(banner)
 
-print("Welcome to Demon Setup. This will install all the dependencies needed for the program to run.")
+print("Welcome to SSS Setup. This will install all the dependencies needed for the program to run.")
 
 print("\nDo you want to start the setup now? (y/n)")
 a = input("> ")
@@ -33,7 +33,7 @@ else:
 print("\nDo you want to start the tool now? (y/n)")
 b = input("> ")
 if b=="y":
-    os.system("py Demon.py")
+    os.system("py SSS.py")
 else:
     print("Exiting...")
     time.sleep(2)
