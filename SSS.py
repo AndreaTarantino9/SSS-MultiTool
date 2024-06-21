@@ -42,7 +42,7 @@ elif str(choice)=="6":
     os.system("py src/DDoS.py")
 
 elif str(choice)=="7":
-    os.system("py src/IPGenerator.py")
+    os.system("py src/IP-Generator.py")
 
 elif str(choice)=="8":
     os.system("py src/IP-Validator.py")
