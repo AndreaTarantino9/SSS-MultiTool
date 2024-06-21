@@ -20,6 +20,8 @@ if choice=="Help" or choice=="help" or choice=="HELP":
     print("  4)IPinfo              get information about an IP address.")
     print("  5)Sniffer             sniff traffic.")
     print("  6)DDoS                perform a DDoS attack.")
+    print("  7)IPGen               generate IP address.")
+    print("  8)IPValid             validate an IP address.")
     choice = input("\n> ")
 elif str(choice)=="1":
     os.system("py src/IP-Pinger.py")
@@ -38,6 +40,12 @@ elif str(choice)=="5":
 
 elif str(choice)=="6":
     os.system("py src/DDoS.py")
+
+elif str(choice)=="7":
+    os.system("py src/IPGenerator.py")
+
+elif str(choice)=="8":
+    os.system("py src/IP-Validator.py")
 
 else:
     print("Invalid command. Type Help if you're a beginner.")
