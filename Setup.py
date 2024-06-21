@@ -36,5 +36,5 @@ if b=="y":
     os.system("py Demon.py")
 else:
     print("Exiting...")
-    time.sleep(3)
+    time.sleep(2)
     os.system("exit")
